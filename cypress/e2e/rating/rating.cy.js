@@ -34,7 +34,7 @@ beforeEach(() => {
   
     });
 
-    it.only('VALIDAR AVALIAÇÃO DE CONTEÚDO', () => {
+    it('VALIDAR AVALIAÇÃO DE CONTEÚDO', () => {
   
       cy.typeLogin('testeqa','Testesenha@123');
       cy.ClickMovie();
